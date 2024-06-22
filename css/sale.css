@@ -1,0 +1,20 @@
+.sale__content__left {
+  width: 628px;
+  height: 640px;
+  position: relative;
+}
+
+.sale__figure {
+  border-radius: 480px;
+  width: 465px;
+  height: 465px;
+  backdrop-filter: blur(240px);
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 88px;
+  left: 81px;
+}
+
+.sale-img {
+  position: absolute;
+}/*# sourceMappingURL=sale.css.map */

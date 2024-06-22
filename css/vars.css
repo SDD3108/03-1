@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../../font/VisueltPro-Bold.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../../font/VisueltPro-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "meddium";
+  src: url("../../font/VisueltPro-Medium.ttf");
+}/*# sourceMappingURL=vars.css.map */

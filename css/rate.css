@@ -1,0 +1,38 @@
+.rate__content__bottom {
+  width: 1344px;
+  display: grid;
+  grid-template-columns: repeat(4, 318px);
+  grid-template-rows: 522px;
+}
+
+.rates {
+  box-shadow: 0 4px 20px 0 rgba(25, 25, 25, 0.05);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+}
+
+.rate__container {
+  height: 336px;
+}
+
+.rate-block1 {
+  height: 96px;
+}
+
+.rate-block2 {
+  height: 48px;
+}
+
+.yes {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.no {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=rate.css.map */
