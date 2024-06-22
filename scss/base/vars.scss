@@ -1,0 +1,29 @@
+$color-blue: #4754eb;
+$color-purple: #8633b0;
+$color-pink: #eb478b;
+$color-yellow: #ffdf80;
+$color-orange: #f47b25;
+$bg-color: #f2f2f2;
+$main-white: #fff;
+$main-black: #1a1a1a;
+$main-grey: #808080;
+$main-white-grey: #d9d9d9;
+$private-info-color: #595959;
+$private-accent-color: #505DEC;
+$inactive-blue: #3c49dd;
+// $font-bold:;
+// $font-regular:;
+@font-face {
+    font-family: 'Bold';
+    src: url('../../font/VisueltPro-Bold.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Regular';
+    src: url('../../font/VisueltPro-Regular.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'meddium';
+    src: url('../../font/VisueltPro-Medium.ttf');
+}

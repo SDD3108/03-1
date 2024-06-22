@@ -1,0 +1,103 @@
+.advantages {
+    background-color: $main-white;
+}
+.advantages__content {
+    padding: 80px 0 80px 0;
+    @media (max-width:400px){
+        padding: 40px 8px 40px 8px;
+    }
+}
+.advantages__content__top {
+    h2 {
+        margin-left: 32px;
+        @media (max-width:400px){
+            margin-left: 12px;
+        }
+    }
+}
+.advantages__content__bottom {
+    display: grid;
+    grid-template-columns: repeat(3,437px);
+    grid-template-rows: 240px;
+    column-gap: 16px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:400px){
+        display: flex;
+        flex-direction: column;
+        margin-top: 29px;
+        align-items: center;
+        gap: 16px;
+    }
+
+}
+.profit {
+    border-radius: 24px;
+    width: 437px;
+    height: 240px;
+    box-shadow: 0 4px 20px 0 rgba(25, 25, 25, 0.05);
+    background: rgba(255, 255, 255, 0.5);
+    @media (max-width:400px){
+        width: 343px;
+        height: 168px;
+        box-shadow: 0 4px 20px 0 rgba(25, 25, 25, 0.05);
+    }
+    p {
+        @include font-style ($main-grey,18px,400,none,135%);
+        margin: 28px 0 0 24px;
+        font-family: Regular;
+        @media (max-width:400px){
+            font-size: 14px;
+            margin: 24px 16px 16px 16px;
+        }
+    }
+}
+.profit-br-pc {
+    @media (max-width:400px){
+        display: none;
+    }
+}
+.profit-br-mobile {
+    display: none;
+    @media (max-width:400px) {
+        display: inline-block;
+    }
+}
+.profit-span-mobile {
+    display: inline;
+    @media (max-width:400px){
+        display: none;
+    }
+}
+// .profit-p {
+//     width: 389px;
+//     @media (max-width:400px) {
+//         width: 311px;
+//     }
+// }
+.img-title {
+    margin: 12px 0 0 16px;
+    @extend %flex-line;
+    align-items: center;
+    max-width: 337px;
+    @media (max-width:400px){
+        max-width: 250px;
+        height: 40px;
+        // img {
+        //     width: 36px;
+        //     height: 45px;
+        // }
+    }
+    h3 {
+        padding-left: 12px;
+    }
+    img {
+        width: 56px;
+        height: 56px;
+        @media (max-width:400px){
+            width: 36px;
+            height: 36px;
+        }
+    }
+}

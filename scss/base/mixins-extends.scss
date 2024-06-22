@@ -1,0 +1,39 @@
+@mixin font-style ($color,$fs,$fw,$ls,$lh) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+    letter-spacing: $ls;
+    line-height: $lh;
+}
+%flex-x {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%ff-bold {
+    font-family: Bold;
+}
+%ff-regular {
+    font-family: Regular;
+}
+%flex-line {
+    display: flex;
+}
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%grid{
+    display: grid;
+}
+// %flex-column-a{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }

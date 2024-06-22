@@ -1,0 +1,167 @@
+.rate {
+    background-color: $main-white
+}
+.rate__content {
+    @extend %flex-column;
+    width: 1344px;
+    padding: 80px 0 88px;
+    margin: 0 auto 0;
+    @media (max-width:400px){
+        width: 320px;
+        margin: auto;
+        padding: 40px 0 40px;
+    }
+}
+.rate__content__top {
+    h2 {
+        margin: 0 0 0 32px;
+        @media (max-width:400px){
+            margin: 0;
+        }
+    }
+}
+.rate__content__bottom {
+    width: 1344px;
+    display: grid;
+    grid-template-columns: repeat(4,318px);
+    grid-template-rows: 552px;
+    column-gap: 24px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:400px){
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+.rates {
+    backdrop-filter: blur(24px);
+    box-shadow: 0 4px 20px 0 rgba(25, 25, 25, 0.05);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    h3 {
+        padding-left: 0;
+    }
+    @media (max-width:400px){
+        width: 320px;
+        height: 438px;
+    }
+}
+.rate__container {
+    width: 280px;
+    height: 336px;
+    @extend %flex-column;
+    gap: 16px;
+    margin: 44px 0 0 24px;
+    @media (max-width:400px){
+        height: 238px;
+        margin: 31px 0 0 16px;
+    }
+}
+.price {
+    font-family: meddium;
+    width: 203px;
+    margin: 20px 0 0 24px;
+    p {
+        margin-top: 8px;
+        @include font-style ($main-grey,24px,500,none,100%);
+    }
+    span {
+        color: $color-blue;
+    }
+    @media (max-width:400px){
+        p {
+            font-size: 18px;
+            line-height: 125%;
+        }
+      margin: 15px 0 0 16px;
+    }
+}
+.rate-block1 {
+    height: 96px;
+    @extend %flex-line;
+    p {
+        @include font-style ($main-grey,18px,400,none,135%);
+        margin-left: 16px;
+        font-family: Regular;
+    }
+    @media (max-width:400px){
+        height: 57px;
+        p {
+            font-size: 14px;
+        }
+    }
+}
+.rate-p {
+    // width: 224px;
+    // height: 96px;
+    @media (max-width:400px){
+        width: 240px;
+        height: 57px;
+    }
+}
+.for-pc {
+    @media (max-width:400px){
+        display: none;
+    } /* Анара,я считаю за такую идею надо сразу 12 ставить */
+}
+.rate-block2 {
+    height: 48px;
+    @extend %flex-line;
+    p {
+        @include font-style ($main-grey,18px,400,none,135%);
+        font-family: Regular;
+        margin-left: 16px;
+    }
+    @media (max-width:400px){
+        height: 38px;
+        p {
+            font-size: 14px;
+        }
+    }
+}
+.yes-no {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    @extend %flex-center;
+    @media (max-width:400px){
+        width: 24px;
+        height: 24px;
+    }
+}
+.yes {
+    @media (max-width:400px){
+        width: 12px;
+        height: 9px;
+    }
+}
+.no {
+    @media (max-width:400px){
+        width: 10px;
+        height: 10px;
+    }
+}
+.find-more {
+    border-radius: 16px;
+    width: 270px;
+    height: 56px;   
+    background-color: $main-white;
+    @extend %flex-center;
+    margin: 16px 0 0 24px;
+    a {
+        font-family: meddium;
+        @include font-style ($color-blue,18px,500,none,135%)
+    }
+    @media (max-width:400px){
+        width: 288px;
+        height: 48px;
+        a {
+            font-size: 14px;
+        }
+        margin: 40px 0 0 16px;
+    }
+}

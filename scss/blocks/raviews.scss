@@ -1,0 +1,172 @@
+.reviews__content {
+    margin: 80px 0;
+    @media (max-width:400px){
+        margin: 40px 8px;
+        height: 1035px;
+    }
+}
+.reviews__content__bot-top {
+    margin: 0 auto 0;
+}
+.reviews__content__top {
+    width: 628px;
+    // margin-left: 56px;
+    h2 {
+        margin-left: 0;
+        @media (max-width:400px){
+            margin-left: 12px;
+        }
+    }
+    @media (max-width:400px){
+        width: 70px;
+    }
+}
+.reviews__content__bottom {
+    width: 1281px;
+    height: 560px;
+    position: relative;
+    // margin-top: 40px;
+    margin: 40px auto 0;
+    @media (max-width:400px){
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 343px;
+        margin: 40px auto 0;
+        height: 972px;
+    }
+}
+.cat {
+    border-radius: 16px;
+    width: 628px;
+    height: 240px;
+    backdrop-filter: blur(240px);
+    box-shadow: -2px 4px 20px 0 rgba(25, 25, 25, 0.03);
+    background-color: $main-white;
+    p {
+        @include font-style ($main-grey,18px,400,none,135%);
+        font-family: Regular;
+    }
+    @media (max-width:400px){
+        border-radius: 16px;
+        width: 343px;
+        height: 231px;
+    }
+}
+.cat__top {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px 16px 0 0;
+    width: 628px;
+    height: 96px;
+    @extend %flex-line;
+    p {
+        @extend %flex-line;
+        align-items: center;
+        @media (max-width:400px) {
+            font-size: 14px;
+        }
+    }
+    @media (max-width:400px){
+        border-radius: 16px 16px 0 0;
+        width: 342px;
+        height: 72px;
+    }
+}
+.cat__top__info {
+    width: 588px;
+    @extend %flex-x;
+    margin: 16px 0 0 16px;
+    @media (max-width:400px){
+        width: 310px;
+        margin: 12px 0 0 16px;
+    }
+}
+.cat__info-p {
+    width: 580px;
+    @media (max-width:400px){
+        width: 295px;
+        p {
+            font-size: 14px;
+        }
+    }
+}
+.cat__title {
+    @extend %flex-line;
+    align-items: center;
+    width: 251px;
+    h3 {
+        margin-left: 16px;
+    }
+    @media (max-width:400px){
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
+.cat__info {
+    margin: 16px 24px;
+}
+.stars {
+    width: 136px;
+    @extend %flex-x;
+    margin-top: 16px;
+    @media (max-width:400px){
+        width: 96px;
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+.cat-button {
+    border-radius: 16px;
+    padding: 12px 24px;
+    width: 274px;
+    height: 56px;
+    background-color: $main-white;
+    font-family: meddium;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    @include font-style ($color-blue,18px,500,none,135%);
+    @media (max-width:400px){
+        display: none;
+    }
+}
+.semyon {
+    position: absolute;
+    top: 0;
+    left: 326px;
+    z-index: 6;
+    @media (max-width:400px){
+        position: static;
+    }
+}
+.olezhka {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    z-index: 4;
+    @media (max-width:400px){
+        position: static;
+    }
+}
+.innokenty {
+    position: absolute;
+    right: 0;
+    top: 192px;
+    z-index: 4;
+    @media (max-width:400px){
+        position: static;
+    }
+}
+.seryoga {
+    position: absolute;
+    bottom: 0;
+    left: 164px;
+    z-index: 2;
+    @media (max-width:400px){
+        position: static;
+    }
+}
